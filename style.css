@@ -7,9 +7,10 @@
 .box-degrade{
     text-align: center;
     display: grid;
-    background-image: linear-gradient(to left, rgb(142, 60, 209), rgb(230, 48, 199), rgb(209, 61, 106));
+    background-image: linear-gradient(to left, rgba(128, 28, 209, 0.664), rgba(201, 38, 174, 0.719), rgba(80, 31, 196, 0.658));
     background-size: 500% 500%;
     animation: degrade 5s infinite alternate;
+}
 
 @keyframes degrade{
     0%{background-position-x: 0%;}

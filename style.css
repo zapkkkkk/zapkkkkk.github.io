@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-degrade{
+    text-align: center;
+    display: grid;
+    background-image: linear-gradient(to left, rgb(255, 111, 97), rgb(199, 152, 81), rgb(185, 175, 85));
+    background-size: 500% 500%;
+    animation: degrade 5s infinite alternate ;
+}
+
+@keyframes degrade{
+    0%{background-position-x: 0%;}
+    100%{background-position-x: 100%;}
+}
+
+
+
+*.titulo{
+    text-align: center;
+    font-size: 100px;
+    font-style: inherit;
+    color: rgb(8, 0, 17); 
+    text-shadow: 2px 2px 0 #8b5cf6;
+}
+
+*.subtitulo{
+    text-align: center;
+    font-size: 35px;
+}
+
+*.video{
+    text-align: center;
+}
+
+*.foto1{
+    text-align: center;
+    font-size: 30px;
+}
+
+*.paragrafo1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.textofoto2{
+    font-size: 18px;
+    width: 650px; /* Define a largura fixa da div */
+    padding: 10px; /* Espaçamento interno *
+    /* Centralizando a div horizontalmente */
+    margin: 0 auto; /* Define a margem automática para centralizar a div */ 
+    /* Centralizando o texto dentro da div */
+    text-align: center; /* Alinha o texto no centro da div */
+    /* Controle de quebra de texto */
+    word-wrap: break-word; /* Quebra palavras longas */
+    overflow-wrap: break-word; /* Garante compatibilidade */
+  }
+  
+
+*.paragrafo2{
+    text-align:justify;
+    text-indent: 80px;
+    width: 800px;
+    padding: 100px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+*.frase{
+    text-align:center;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 30px;
+
+}
+
+*.paragrafo3{
+    text-align:justify;
+    text-indent: 80px;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 30px;
+
+}
+
+*.paragrafo4{
+    text-align:justify;
+    text-indent: 80px;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 30px;
+
+}
+
+*.frase1{
+    text-align:center;
+    padding: 40px;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 30px;
+
+}
+
+*.paragrafo5{
+    text-align:justify;
+    text-indent: 80px;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 30px;
+
+}

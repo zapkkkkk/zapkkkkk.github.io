@@ -7,7 +7,7 @@
 .box-degrade{
     text-align: center;
     display: grid;
-    background-image: linear-gradient(to left, rgba(128, 28, 209, 0.664), rgba(201, 38, 174, 0.719), rgba(80, 31, 196, 0.658));
+    background-image: linear-gradient(to left, rgb(128, 28, 209), rgb(201, 38, 174), rgb(81, 31, 196));
     background-size: 500% 500%;
     animation: degrade 5s infinite alternate;
 }

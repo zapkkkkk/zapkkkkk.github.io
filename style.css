@@ -8,7 +8,7 @@
     text-align: center;
     display: grid;
     background-image: linear-gradient(to left, rgb(255, 111, 97), rgb(199, 152, 81), rgb(185, 175, 85));
-    background-size: 500% 500%;
+    background-size: auto;
     animation: degrade 5s infinite alternate ;
 }
 
